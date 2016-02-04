@@ -1,0 +1,27 @@
+---
+title: "Portfolio Proposal"
+author: "Claire Chang Liu"
+output: pdf_document
+---
+
+## Introduction of Topic
+
+The topic that I am planning to look at is China's internal migrants, or floating population as it is called in official discourse now. This is not a new topic, but as long as *Hukou* (household registration) system exists, internal migrants are *de facto* illegal aliens - making them "citizens in the second class". Therefore, I would like to focus more on describing their lives, because I think only through understanding their experiences and living/working conditions can we identify the real problems they are facing.
+
+## Datasets Available
+
+1. [China's census 2010 and maybe the ones before](http://www.stats.gov.cn/tjsj/pcsj/rkpc/6rp/indexch.htm) (This one provides aggregated data by province.)
+2. [Survey on migrant workers (2006, 2008 and 2009)](http://css.sysu.edu.cn/Data/List?type=%E5%9F%8E%E5%B8%82%E5%86%9C%E6%B0%91%E5%B7%A5%E8%B0%83%E6%9F%A5%E6%95%B0%E6%8D%AE%E5%BA%93) (This survey targets on migrants workers with no more than high school education in Guangdong province, which is the province with the largest number of internal migrants I think. The results of the survey provide individual-level data.)
+3. [China General Social Survey (2012)](http://www.cnsda.org/index.php?r=projects/view&id=85111874) (This survey is nation-wide, and interviews both migrants and locals. Therefore, it could potentially provide some comparison between migrants and locals.)
+
+
+## Graph Ideas
+
+1. Line graph: change in the population/percentage of internal migrants
+2. Chord diagram/Flow map: direction of migration
+3. Choropleth map: number of migrants as percentage of total population in each province
+4. Connection map: connections between migrants and their "left-behind" family members
+5. Population pyramid: demographic characteristics of internal migrants
+6. Radar chart: comparison between migrants and locals on a certain set of values or social inclusion level
+7. Bar chart: absolute number of internal migrants in each province
+8. Stacked bar graph: percentages of migrants with different levels of education in each province
