@@ -1,6 +1,6 @@
 ---
 title: "Portfolio Proposal"
-author: "Claire Chang Liu"
+author: "[Claire Chang Liu](https://github.com/bctclc)"
 output: pdf_document
 ---
 
