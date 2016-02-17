@@ -35,4 +35,5 @@ Potential sub-topics to cover:
 15. The changes over time on inter-marriages 
 
 Icons credit to:
+
 Cover: Michael A. Salter & TDL-LONDON
