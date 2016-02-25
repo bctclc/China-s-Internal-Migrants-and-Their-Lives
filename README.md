@@ -1,4 +1,4 @@
-# China-s-Internal-Migrants-and-Their-Lives
+## China-s-Internal-Migrants-and-Their-Lives
 The repo is the final project for course, Data Visualization, with Prof. Alex Engler. It contains a series data visualizations in an attempt to describe the unique phenomenon of internal migration in China and internal migrants' lives. 
 
 
@@ -34,6 +34,13 @@ Potential sub-topics to cover:
 
 15. The changes over time on inter-marriages 
 
+###Notes for Final Revision
+
+####Education Composition
+
+1. Reorder provinces by region or according to values
+
+2. Delete panel background and references lines 
 ###Icons credit to:
 
 Cover: Michael A. Salter & TDL-LONDON
