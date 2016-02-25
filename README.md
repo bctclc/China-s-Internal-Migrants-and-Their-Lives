@@ -41,6 +41,7 @@ Potential sub-topics to cover:
 1. Reorder provinces by region or according to values
 
 2. Delete panel background and references lines 
+
 ###Icons credit to:
 
 Cover: Michael A. Salter & TDL-LONDON
