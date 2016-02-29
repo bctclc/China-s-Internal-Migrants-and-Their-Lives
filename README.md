@@ -42,6 +42,12 @@ Potential sub-topics to cover:
 
 2. Delete panel background and references lines 
 
+####Total Population
+
+1. 2000 & 2010 in the title
+
+2. explain the 400% increase
+
 ###Icons credit to:
 
 Cover: Michael A. Salter & TDL-LONDON
