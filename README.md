@@ -52,6 +52,8 @@ Potential sub-topics to cover:
 
 1. Consider seperating rural and urban HH registration
 
+2. Include the sample provinces of survey (CHIP)
+
 ###Icons credit to:
 
 Cover: Michael A. Salter & TDL-LONDON
