@@ -46,7 +46,11 @@ Potential sub-topics to cover:
 
 1. 2000 & 2010 in the title
 
-2. explain the 400% increase
+2. Explain the 400% increase
+
+####Income
+
+1. Consider seperating rural and urban HH registration
 
 ###Icons credit to:
 
