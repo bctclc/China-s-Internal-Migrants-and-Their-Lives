@@ -6,7 +6,7 @@ raw <- read.csv("income.csv")
 raw <- subset(raw[-8,])
 
 treemap(raw, index=c("level.1", "level.2"), vSize="value", vColor="value",
-        palette = c("#EAFEFD", "#035d59"), aspRatio = 1.7,
+        palette = c("#EAFEFD", "#035d59"), aspRatio = 1.54545455,
         overlap.labels=1, force.print.labels=T)
 
 # expenditure tree map
