@@ -1,0 +1,13 @@
+X,reason,value
+real,"Never heard about it/Heard about it before, but didn't quite understand",1023
+real,It is not necessary,1011
+real,Cannot afford the expense,462
+real,Not implemented,200
+real,Can not buy the insurance because I am from another province,96
+real,Other reasons,55
+fake,"Never heard about it/Heard about it before, but didn't quite understand",100
+fake,It is not necessary,100
+fake,Cannot afford the expense,100
+fake,Not implemented,100
+fake,Can not buy the insurance because I am from another province,100
+fake,Other reasons,100
