@@ -36,6 +36,8 @@ Potential sub-topics to cover:
 
 ###Notes for Final Revision
 
+(Data visualizations in Profolio folder are not final yet.)
+
 ####Education Composition
 
 1. Reorder provinces by region or according to values
