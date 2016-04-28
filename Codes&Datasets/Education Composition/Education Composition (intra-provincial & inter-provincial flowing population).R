@@ -53,12 +53,20 @@ intra_pro3 <- subset(intra_pro3, select=c(X.1,no_percentage,primary_percentage,j
 ### color set for education level
 edu_color <- c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")
 
+### position for provinces
+positions <- c("Guangdong","Zhejiang","Jiangsu","Shanghai","Beijing","Fujian","Shandong",
+               "Sichuan","Liaoning","Hubei","Henan","Inner Mongolia","Hebei","Tianjin",
+               "Yunan","Guangxi","Hunan","Anhui","Shaanxi","Shanxi","Xinjiang","Chongqing",
+               "Heilongjiang","Guizhou","Jiangxi",
+               "Jilin","Gansu","Hainan","Ningxia","Qinghai","Tibet")
+
 ### barplot for education composition for inter-provincial flowing population by province of residence
 melt_inter <- melt(inter_pro)
 ggplot(melt_inter) +aes(x=X.1, y=value, fill=variable) +
        geom_bar(stat="identity") +
        scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-       coord_flip() + theme_bw()
+       coord_flip() + theme_bw()+theme(panel.background = element_rect(fill = "white"))+
+       scale_x_discrete(limits = positions)
 
 
 ### barplot for education composition for intra-provincial flowing population by province of residence
@@ -66,18 +74,18 @@ melt_intra <- melt(intra_pro)
 ggplot(melt_intra) +aes(x=X.1, y=value, fill=variable) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-  coord_flip()+ theme_bw()
+  coord_flip()+ theme_bw()+theme(panel.background = element_rect(fill = "white"))
 
 ### barplot for education composition for inter-provincial flowing population by level of residence
 melt_inter3 <- melt(inter_pro3)
 ggplot(melt_inter3) +aes(x=X.1, y=value, fill=variable) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-  coord_flip() + theme_bw()
+  coord_flip() + theme_bw()+theme(panel.background = element_rect(fill = "white"))
 
 ### barplot for education composition for intra-provincial flowing population by level of residence
 melt_intra3 <- melt(intra_pro3)
 ggplot(melt_intra3) +aes(x=X.1, y=value, fill=variable) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-  coord_flip() + theme_bw()
+  coord_flip() + theme_bw()+theme(panel.background = element_rect(fill = "white"))
