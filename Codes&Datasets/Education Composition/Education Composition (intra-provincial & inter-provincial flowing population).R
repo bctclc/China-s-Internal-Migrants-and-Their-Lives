@@ -1,6 +1,6 @@
 ### Education composition for intra-provincial and inter-provincial flowing population
 
-setwd("E:\\学习相关\\R\\China-s-Internal-Migrants-and-Their-Lives\\Codes&Datasets")
+setwd("E:\\学习相关\\R\\China-s-Internal-Migrants-and-Their-Lives\\Codes&Datasets\\Education Composition")
 library(ggplot2)
 library(reshape2)
 
@@ -65,7 +65,7 @@ melt_inter <- melt(inter_pro)
 ggplot(melt_inter) +aes(x=X.1, y=value, fill=variable) +
        geom_bar(stat="identity") +
        scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-       coord_flip() + theme_bw()+theme(panel.background = element_rect(fill = "white"))+
+       coord_flip() + theme(panel.background = element_rect(fill = "white"))+
        scale_x_discrete(limits = positions)
 
 
@@ -74,18 +74,19 @@ melt_intra <- melt(intra_pro)
 ggplot(melt_intra) +aes(x=X.1, y=value, fill=variable) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-  coord_flip()+ theme_bw()+theme(panel.background = element_rect(fill = "white"))
+  coord_flip()+ theme(panel.background = element_rect(fill = "white"))+
+  scale_x_discrete(limits = positions)
 
 ### barplot for education composition for inter-provincial flowing population by level of residence
 melt_inter3 <- melt(inter_pro3)
 ggplot(melt_inter3) +aes(x=X.1, y=value, fill=variable) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-  coord_flip() + theme_bw()+theme(panel.background = element_rect(fill = "white"))
+  coord_flip() + theme(panel.background = element_rect(fill = "white"))
 
 ### barplot for education composition for intra-provincial flowing population by level of residence
 melt_intra3 <- melt(intra_pro3)
 ggplot(melt_intra3) +aes(x=X.1, y=value, fill=variable) +
   geom_bar(stat="identity") +
   scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734")) +
-  coord_flip() + theme_bw()+theme(panel.background = element_rect(fill = "white"))
+  coord_flip() + theme(panel.background = element_rect(fill = "white"))
