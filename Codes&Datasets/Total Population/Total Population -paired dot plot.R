@@ -1,4 +1,4 @@
-setwd("E:\\学习相关\\R\\China-s-Internal-Migrants-and-Their-Lives\\Codes&Datasets")
+setwd("E:\\学习相关\\R\\China-s-Internal-Migrants-and-Their-Lives\\Codes&Datasets\\Total Population")
 library(ggplot2)
 library(reshape2)
 
@@ -24,7 +24,9 @@ positions <- c("Tibet","Qinghai","Ningxia","Gansu","Jilin",
                "Hebei","Inner Mongolia","Liaoning","Xinjiang","Shandong",
                "Tianjin","Fujian","Beijing","Jiangsu","Shanghai","Zhejiang","Guangdong")
 ggplot(melt_data, aes(x = value, y = X.1))+
-  geom_path(group = melt_data$X.1, size=2,aes(color=percentage.change) )+
-  geom_point(size = 3, shape=".") +
-  scale_y_discrete(limits = positions)
+  geom_path(group = melt_data$X.1, size=1,aes(color=percentage.change) )+
+  scale_colour_gradient(low = "#b1fcf9", high = "#023734")+
+  geom_point(size = 1, shape=9, color="#5e5e5e") +
+  scale_y_discrete(limits = positions)+
+  theme(panel.background = element_rect(fill = "white"))
   

@@ -7,7 +7,8 @@ library(Rmisc)
 library(gridExtra)
 
 raw <- read.csv("reason-raw.csv")
-raw <- raw[,c(1,3:9)]
+raw$family <- raw$Trailing.Family.Member+raw$Marriage
+raw <- raw[,c(1,2,3,9)]
 melted <- melt(raw)
 
 plots <-list()
@@ -50,7 +51,7 @@ for (i in c("Beijing",
           panel.border= element_blank())+
     scale_x_discrete(breaks=NULL)+
     scale_y_continuous(breaks=NULL)+
-    scale_fill_manual(values=c("#b1fcf9","#2CF8EF","#07e2d8","#05968f","#035d59","#023734"))
+    scale_fill_manual(values=c("#b1fcf9","#07e2d8","#023734"))
   plots[[i]] <- p1
 }
 
